@@ -19,9 +19,12 @@ public class Main {
         refrigerador();
     }
     
-    public static void refrigerador() {
+   public static void refrigerador() {
+        System.out.println("Ingrese numero de botellas");
     	int nBotellas = teclado.nextInt();
+        System.out.println("Ingrese altura del refrigerador");
     	int h = teclado.nextInt();
+        System.out.println("Ingrese las botellas una a una");
     	int[] botellas = new int[nBotellas];
     	for(int i = 0;i < nBotellas;i++) {
     		botellas[i] = teclado.nextInt();
